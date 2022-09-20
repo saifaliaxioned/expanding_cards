@@ -145,6 +145,8 @@ li {
   transition: all 1s ease;
 }
 
+.active-title { display: block; }
+
 .image img {
   height: 538px;
   border-radius: 54px;

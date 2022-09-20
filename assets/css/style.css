@@ -127,6 +127,7 @@ li {
   flex-basis: 10%;
   transition: all 0.5s ease;
   cursor: pointer;
+  transition: all 1s;
 }
 
 .active-image { flex-basis: 100%; }
@@ -137,12 +138,12 @@ li {
   position: absolute;
   left: 35px;
   bottom: 25px;
-  color: #fff;
   display: none;
+  color: #fff;
   font-size: 30px;
   font-weight: bold;
   text-transform: capitalize;
-  transition: all 1s ease;
+  transition: all 1s;
 }
 
 .active-title { display: block; }
